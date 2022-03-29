@@ -1,0 +1,11 @@
+Plataforma Saúde e alimentação
+
+[x] calculadora de IMC
+[x] conforme cada resultado retornado pelo formulario, irá direcionar o usuario para uma pagina
+referente ao seu IMC
+[x] Botao em cada pagina pra poder voltar pra principal 
+[x] ajustar o formulario
+
+Dieta:
+[] NavBar 
+[] Colocar as 5 dicas dentro de divs de forma que parecam postits
