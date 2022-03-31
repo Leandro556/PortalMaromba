@@ -1,0 +1,14 @@
+.bg{
+    background-color: #212529fa;
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.imc1{
+    border-color: black;
+}
