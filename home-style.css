@@ -2,6 +2,11 @@
     background-color: #212529fa;
 }
 
+.butn-1{
+    background-color: #212529fa;
+    color: rgb(152, 152, 152);
+}
+
 h1, h2, p{
     color: white;
 }
@@ -10,11 +15,7 @@ h1, h2, p{
     margin: 3%;
 }
 
-.img1{
-    width: 100%;
-}
-
-.logo-page{
-    margin-top: 10px;
+.div1{
+    height: 250px;
     text-align: center;
 }
