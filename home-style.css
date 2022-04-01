@@ -9,3 +9,12 @@ h1, h2, p{
 .principal{
     margin: 3%;
 }
+
+.img1{
+    width: 100%;
+}
+
+.logo-page{
+    margin-top: 10px;
+    text-align: center;
+}
