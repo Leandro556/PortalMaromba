@@ -9,3 +9,8 @@ h1, h2, p, h3{
 .content{
     margin: 3%;
 }
+
+.butn-1{
+    background-color: #212529fa;
+    color: rgb(152, 152, 152);
+}
