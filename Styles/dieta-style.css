@@ -16,7 +16,6 @@ h1, h2, p, h3{
 }
 
 .grid-1{
-    background: rgb(52, 52, 52);
-    margin: 3px;
-    
+    background: rgb(25, 25, 25);
+    align-items: center;
 }
