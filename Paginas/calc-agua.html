@@ -57,14 +57,15 @@
                     <input class="input-group-text"
                             id="n1" 
                             placeholder="Peso atual" 
-                            type="text"
+                            type="number"
+                            
                             maxlength="5"
                             autocomplete="off"
                             required /> 
                 </label>
 
                 <br><br>
-                <button onclick="calculadora()" class="btn btn-success" > Calcular </button>
+                <button type="button" onclick="calculadora()" class="btn btn-success" > Calcular </button>
                 <button type="reset" class="btn btn-danger">Limpar</button>
 
                 <br><br>
@@ -73,7 +74,8 @@
                   Quantidade em litros:
                   <input class="agua1 input-group-text" id="resultado" disabled="disabled" /> 
                   </label>
-            </form>
+                </form>
+            
     </section>
 </main>
 
