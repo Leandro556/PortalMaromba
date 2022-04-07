@@ -33,47 +33,47 @@ function verificarIMC(imc) {
   // MUITO ABAIXO DO PESO
       if (imc < 17) {
         setTimeout(function () {
-          window.location.href = 'http://127.0.0.1:5500/Paginas/muito_abaixo_do_peso.html';
-        }, 3000);
+          alert('Muito abaixo do peso');
+        }, 15);
     // createMessage("Muito abaixo do peso", "alert")
     } else 
 
     // ABAIXO DO PESO 
       if (imc > 17 && imc <= 18.49){
         setTimeout(function () {
-          window.location.href = 'http://127.0.0.1:5500/Paginas/abaixo_do_peso.html';
-        }, 3000);
+          alert('Abaixo do peso');
+        }, 15);
     // createMessage("Abaixo do peso", "warning")
     } else 
 
     // PESO NORMAL
       if (imc >= 18.5 && imc <= 24.99){
         setTimeout(function () {
-          window.location.href = 'http://127.0.0.1:5500/Paginas/normal.html';
-        }, 3000);
+          alert('Peso normal');
+        }, 15);
     // createMessage("Peso normal", "sucess")
     } else 
 
     // ACIMA DO PESO 
       if (imc >= 25 && imc <= 29.99){
         setTimeout(function () {
-          window.location.href = 'http://127.0.0.1:5500/Paginas/acima_do_peso.html';
-        }, 3000);
+          alert('Acima do peso');
+        }, 15);
     // createMessage("Acima do peso", "warning")
     } else 
 
     // OBESIDADE 1
       if (imc >= 30 && imc <= 34.99){
         setTimeout(function () {
-          window.location.href = 'http://127.0.0.1:5500/Paginas/obesidade1.html';
-        }, 3000);
+          alert('Obesidade I');
+        }, 15);
     // createMessage("Obesidade I", "alert")
     } else {
 
       // OBESIDADE 2
       setTimeout(function () {
-        window.location.href = 'http://127.0.0.1:5500/Paginas/obesidade2.html';
-      }, 3000);
+        alert('Obesidade II');
+      }, 15);
     // createMessage("Obesidade II", "danger")
     }
     }
