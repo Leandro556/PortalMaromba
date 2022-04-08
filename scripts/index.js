@@ -22,7 +22,7 @@ function calcularIMC(kilos, altura) {
     
     if (validaEntrada(kilos, altura)) {
     const imc = calcularIMC(kilos, altura);
-    document.getElementById('imc').innerHTML = parseFloat(imc).toFixed(2);
+    document.getElementById('imc').innerHTML = `Seu imc: ` + parseFloat(imc).toFixed(2);
     verificarIMC(imc);
     } else {
     document.getElementById('imc').value = "## ERRO CONFIRA SE AS INFORMAÇOES ESTAO CORRETAS ##";
