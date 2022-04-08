@@ -3,5 +3,5 @@ function calculadora() {
     var n2 = 0.04   
  resultado = n1 * n2;
    
-    document.getElementById('resultado').innerHTML = `Você precisa tomar ` + resultado + ` litros por dia`;  
+    document.getElementById('resultado').innerHTML = `Você precisa tomar ` + resultado + ` litros de água por dia`;  
  }  
