@@ -15,7 +15,30 @@ h1, h2, p{
     margin: 3%;
 }
 
+@media (max-width: 470px){
+.logo-page{
+    width: 300px;
+}
+}
+
+@media (max-width: 330px){
+    .logo-page{
+        width: 200px;
+    }
+    .div1{
+        height: 120px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 330px){
 .div1{
     height: 250px;
+    text-align: center;
+}
+}
+
+.sub-tit{
     text-align: center;
 }
