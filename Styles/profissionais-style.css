@@ -11,8 +11,13 @@ h1, h2, p, h3, hr{
 }
 
 .rafa{
-    width: 200px;
-    height: 200px;
+    width: 380px;
+    height: 400px;
+}
+
+.gueno{
+    width: 350px;
+    height: 400px;
 }
 
 .butn-1{
