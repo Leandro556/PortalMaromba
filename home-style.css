@@ -2,17 +2,21 @@
     background-color: #212529fa;
 }
 
+.color-bg{
+    background-color: black;
+}
+
 .butn-1{
     background-color: #212529fa;
     color: rgb(152, 152, 152);
 }
 
-h1, h2, h5, h6, p{
+h1, h2, h5, h6, p, a{
     color: white;
 }
 
 .linear-gradient{
-    background: linear-gradient(rgb(59, 0, 0),  #212529fa);
+    background: linear-gradient(rgb(0, 0, 0),  #212529fa);
 }
 
 .principal{
@@ -66,7 +70,7 @@ h1, h2, h5, h6, p{
 
 .footer{
     text-align: center;
-    background: linear-gradient(#212529fa, rgb(59, 0, 0));
+    background: linear-gradient(#212529fa, rgb(0, 0, 0));
 }
 
 .credits{
