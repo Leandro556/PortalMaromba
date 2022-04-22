@@ -7,8 +7,12 @@
     color: rgb(152, 152, 152);
 }
 
-h1, h2, p{
+h1, h2, h5, h6, p{
     color: white;
+}
+
+.linear-gradient{
+    background: linear-gradient(rgb(59, 0, 0),  #212529fa);
 }
 
 .principal{
@@ -45,4 +49,26 @@ h1, h2, p{
 
 .txt-1{
     text-align:left;
+}
+
+.btn-saiba{
+    text-align: center;
+    align-items: center;
+}
+
+.ft-1{
+    text-align: center;
+}
+
+.ideia{
+    margin-top: 15px;
+}
+
+.footer{
+    text-align: center;
+    background: linear-gradient(#212529fa, rgb(59, 0, 0));
+}
+
+.credits{
+   margin: 0%;
 }
