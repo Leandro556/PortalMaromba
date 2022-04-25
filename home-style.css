@@ -55,6 +55,11 @@ h1, h2, h5, h6, p, a{
     text-align:left;
 }
 
+.btn-saiba-mais{
+    text-align: center;
+    align-items: center;
+}
+
 .btn-saiba{
     text-align: center;
     align-items: center;
