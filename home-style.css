@@ -1,22 +1,22 @@
 .bg{
-    background-color: #212529fa;
+    background-color: #fffffffa;
 }
 
-.color-bg{
-    background-color: black;
+.content{
+    background-color: rgb(255, 255, 255);
 }
 
 .butn-1{
-    background-color: #212529fa;
-    color: rgb(152, 152, 152);
+    background-color: #fffffffa;
+    color: rgb(0, 0, 0);
 }
 
 h1, h2, h5, h6, p, a{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .linear-gradient{
-    background: linear-gradient(rgb(0, 0, 0),  #212529fa);
+    background: linear-gradient(rgb(255, 255, 255),  #fffffffa);
 }
 
 .principal{
@@ -75,7 +75,7 @@ h1, h2, h5, h6, p, a{
 
 .footer{
     text-align: center;
-    background: linear-gradient(#212529fa, rgb(0, 0, 0));
+    background: linear-gradient(#fffffffa, rgb(255, 255, 255));
 }
 
 .credits{
