@@ -23,9 +23,20 @@ h1, h2, h5, h6, p, a{
     margin: 3%;
 }
 
-@media (max-width: 470px){
+.div1{
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 470px) and (min-width: 330px){
 .logo-page{
     width: 300px;
+}
+.div1{
+    height: 170px;
+}
+.div2{
+    margin-top: 30px;
 }
 }
 
@@ -35,15 +46,13 @@ h1, h2, h5, h6, p, a{
     }
     .div1{
         height: 120px;
-        text-align: center;
     }
 }
 
 
-@media (min-width: 330px){
+@media (max-width: 330px){
 .div1{
-    height: 250px;
-    text-align: center;
+    height: 120px;
 }
 }
 
