@@ -1,9 +1,9 @@
 .bg{
-    background-color: #212529fa;
+    background-color: #fffffffa;
 }
 
 h1, h2, p, h3{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .content{
