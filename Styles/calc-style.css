@@ -1,5 +1,5 @@
 .bg{
-    background-color: #212529fa;
+    background-color: #fffffffa;
 }
 
 .main{
@@ -9,6 +9,7 @@
     color: white;
 }
 
-.imc1{
-    border-color: rgb(255, 255, 255);
+.butn-1{
+    background-color: #fffffffa;
+    color: rgb(0, 0, 0);
 }
