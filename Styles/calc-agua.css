@@ -1,16 +1,16 @@
 .bg{
-    background-color: #212529fa;
+    background-color: #fffffffa;
 }
 
 .main{
     display: flex;
     text-align: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .agua1{
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
 }
 
 .butn-1{
