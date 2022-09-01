@@ -1,83 +1,125 @@
-.bg{
-    background-color: #fffffffa;
+.bg {
+  background-color: #fffffffa;
 }
 
-.content{
-    background-color: rgb(255, 255, 255);
+.content {
+  background-color: rgb(255, 255, 255);
 }
 
-.butn-1{
-    background-color: #fffffffa;
-    color: rgb(0, 0, 0);
+.butn-1 {
+  background-color: #fffffffa;
+  color: rgb(0, 0, 0);
 }
 
-h1, h2, h5, h6, p, a{
-    color: rgb(0, 0, 0);
+h1,
+h2,
+h5,
+h6,
+p,
+a {
+  color: rgb(0, 0, 0);
 }
 
-.linear-gradient{
-    background: linear-gradient(rgb(255, 255, 255),  #fffffffa);
+.linear-gradient {
+  background-image: url("./imagens/background2.jpeg");
+  background-size: cover;
 }
 
-.principal{
-    margin: 3%;
+.card {
+  background-color: #aaaaaafa;
 }
 
-.div1{
+.principal {
+  margin: 3%;
+}
+
+@media (max-width: 768px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
+  }
+  .col-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+  }
 }
 
-@media (max-width: 470px) and (min-width: 330px){
-.logo-page{
+.div1 {
+  text-align: center;
+  align-items: center;
+}
+
+.logo-page {
+  animation-duration: 1.5s;
+  animation-name: vem;
+}
+
+@keyframes vem {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) and (min-width: 330px) {
+  .logo-page {
     width: 300px;
-}
-.div1{
+  }
+  .div1 {
     height: 170px;
-}
-.div2{
+  }
+  .div2 {
     margin-top: 30px;
-}
-}
-
-@media (max-width: 330px){
-    .logo-page{
-        width: 200px;
-    }
-    .div1{
-        height: 120px;
-    }
+  }
 }
 
-
-@media (max-width: 330px){
-.div1{
+@media (max-width: 330px) {
+  .logo-page {
+    width: 200px;
+  }
+  .div1 {
     height: 120px;
-}
-}
-
-.sub-tit{
-    text-align: center;
+  }
 }
 
-.txt-1{
-    text-align:left;
+@media (max-width: 330px) {
+  .div1 {
+    height: 120px;
+  }
 }
 
-.btn-saiba-mais{
-    text-align: center;
-    align-items: center;
+.sub-tit {
+  text-align: center;
+  color: white;
 }
 
-.btn-saiba{
-    text-align: center;
-    align-items: center;
+.txt-1 {
+  text-align: left;
 }
 
-.ft-1{
-    text-align: center;
+.btn-saiba-mais {
+  text-align: center;
+  align-items: center;
 }
 
-.ideia{
-    margin-top: 15px;
+.btn-saiba {
+  text-align: center;
+  align-items: center;
+}
+
+.ft-1 {
+  text-align: center;
+}
+
+.ideia {
+  margin-top: 15px;
 }
