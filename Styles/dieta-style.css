@@ -1,21 +1,31 @@
-.bg{
-    background-color: #fffffffa;
+.bg {
+  background-color: #fffffffa;
 }
 
-h1, h2, p, h3{
-    color: rgb(0, 0, 0);
+h1,
+h2,
+p,
+h3 {
+  color: rgb(0, 0, 0);
 }
 
-.content{
-    margin: 2%;
+.capa {
+  padding: 14%;
+  background-image: url("../imagens/background2.jpeg");
+  background-size: cover;
+  max-width: 100%;
 }
 
-.butn-1{
-    background-color: #fffffffa;
-    color: rgb(0, 0, 0);
+.content {
+  margin: 2%;
 }
 
-.grid-1{
-    background: rgb(25, 25, 25);
-    align-items: center;
+.butn-1 {
+  background-color: #fffffffa;
+  color: rgb(0, 0, 0);
+}
+
+.grid-1 {
+  background: rgb(25, 25, 25);
+  align-items: center;
 }
