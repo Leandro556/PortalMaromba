@@ -39,17 +39,24 @@ hr {
   margin: 2%;
 }
 
-.rafa {
-  width: 380px;
-  height: 400px;
-}
-
-.gueno {
-  width: 350px;
-  height: 400px;
-}
-
 .butn-1 {
   background-color: #fffffffa;
   color: rgb(0, 0, 0);
+}
+
+.row,
+.align-cards {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .gueno {
+    height: 60%;
+  }
+  .align-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
