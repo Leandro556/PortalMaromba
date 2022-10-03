@@ -24,6 +24,12 @@ h3 {
   font-weight: 700;
 }
 
+@media (max-width: 420px) {
+  .capa-h1 {
+    font-size: 45px;
+  }
+}
+
 .text-intro {
   text-align: center;
   font-size: 20px;

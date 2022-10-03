@@ -24,6 +24,12 @@ h3 {
   font-weight: 700;
 }
 
+@media (max-width: 420px) {
+  .capa-title {
+    font-size: 45px;
+  }
+}
+
 .intro-treino {
   text-align: center;
   font-size: 20px;
